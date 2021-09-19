@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Brocks' Grammar Quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body >
+    <header>
+        <h1>Brocks Fantastic Quiz</h1>
+        <h2>No pressure</h2>
+    </header>
+    <div class="box">
+        
+        <div id="question-box" class="hide">
+            <div id ="questionText" class ="questionText">???</div>
+            
+            <div id="answerOptions" class="answers"></div>
+            <h2 id="timers"></h2>
+            <h1 id="score" class="score"></h1>
+        </div>
+
+        <div class = "buttons">
+            <button id="start-button" class="start-button">~Start the Quiz~</button>
+            <button id="next-button" class="next-button">Next</button>
+        </div>
+
+    </div>
+
+    <div class="hide" id="submit-score">
+        <p id="user-score"> High Score Submit </p>
+        <form class="form">
+            <input type="text" id="userInitials">
+            <button type="button" class="submitBtn">Enter your Initials</button>
+        </form>
+    </div>
+    
+    <script src="./assets/script.js"></script>
+</body>
+
+
